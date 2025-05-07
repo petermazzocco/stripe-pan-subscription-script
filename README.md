@@ -5,7 +5,7 @@ A Go utility for creating bulk subscriptions for Stripe customers that have been
 
 ## Problem Solved
 
-When migrating customers using Stripe's Copy PAN data feature, customer data is transferred but subscriptions are not. This Go tool bridges that gap by creating new subscriptions for transferred customers while preserving their original billing dates.
+When migrating customers using Stripe's Copy PAN data feature, customer data is transferred but subscriptions are not. This Go tool bridges that gap by creating new subscriptions for transferred customers while preserving their original billing dates. You can read more about why Stripe doesn't copy subscription's over here: [https://docs.stripe.com/get-started/data-migrations/pan-copy-self-serve?copy-method=full&edit=true#work-with-subscriptions](https://docs.stripe.com/get-started/data-migrations/pan-copy-self-serve?copy-method=full&edit=true#work-with-subscriptions)
 
 ## Disclaimer
 
