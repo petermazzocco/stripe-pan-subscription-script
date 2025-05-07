@@ -30,7 +30,10 @@ When migrating customers using Stripe's Copy PAN data feature, customer data is 
 ## Installation
 
 1. Clone this repository
-2. Install dependencies:
+   ```
+   git clone https://github.com/petermazzocco/stripe-pan-subscription-script
+   ```
+3. Install dependencies:
    ```
    go mod download
    ```
